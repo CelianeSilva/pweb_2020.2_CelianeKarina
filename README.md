@@ -1,2 +1,3 @@
-# pweb_2020.2_CelianeKarina
- Meu repositorio da diciplina de PWeb 2020.2
+# Repositorio de Celiane Karina - pweb_2020.2
+
+Que Começem os Jogos!
