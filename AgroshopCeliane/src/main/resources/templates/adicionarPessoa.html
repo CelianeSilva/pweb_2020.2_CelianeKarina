@@ -6,17 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta codigoSemana2="1415800618">
     <link rel="stylesheet" href="style/style.css">
-    <title>PWeb - Adicinar Pessoa</title>
-</head>
-<body>
-	<form action="/pagina-processa-dados-do-form" method="post">
-
-    </form>
-
     
+    <title>PWeb - Cadastrar Cliente</title>
+    <form action="exibir-dados.php" class="formulario" method="post"> 
+        <p> Cadastro de Clientes</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome Completo*" required>
+        </div>
+
+        <div class="field radiobox">
+            <span>Gênero</span>
+            <input type="radio" name="Masculino" id="Feminino" value="Feminino" checked><label for="M">Masculino</label>
+            <input type="radio" name="Feminino" id="Feminino" value="Feminino" checked><label for="Feminino">Feminino</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não Informar</label>
+        </div>
+
+        <div class="field">
+            <label for="Endereço">Seu endereço:</label>
+            <input type="text" id="endereço" name="endereço" placeholder="Digite seu Endereço">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        
+        <div class="field">
+            <label for="cep">Seu Cep:</label>
+            <input type="cep" id="cep" name="cep" placeholder="Digite seu Cep*" required>
+        </div>   
 
 
-
+        <div class="field">
+            
 
 
 
